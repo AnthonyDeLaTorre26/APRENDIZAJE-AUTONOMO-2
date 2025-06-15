@@ -14,7 +14,7 @@ def Generar_Contraseña(longitud, usar_mayus, usar_minus, usar_num, usar_simbol)
 
     if usar_mayus:
         caracteres += string.ascii_uppercase
-    if usar_min:
+    if usar_minus:
         caracteres += string.ascii_lowercase
     if usar_num:
         caracteres += string.digits
@@ -49,12 +49,12 @@ else:
     #Selección de lista de caracteres.
     usar_letras = Solicitar_Si_o_No("¿Desea Incluir Letras?")
     usar_mayus = usar_letras and Solicitar_Si_o_No("¿Desea Incluir Mayúsculas?")
-    usar_min = usar_letras and Solicitar_Si_o_No("¿Desea Inlcuir Minúsculas?")
+    usar_minus = usar_letras and Solicitar_Si_o_No("¿Desea Inlcuir Minúsculas?")
     usar_num = Solicitar_Si_o_No("¿Desea Inluir Números?")
     usar_simbol = Solicitar_Si_o_No("¿Desea Incluir Símbolos?")
 
     #Generar Contraseña
-    Contraseña = Generar_Contraseña(Longitud, usar_mayus, usar_min, usar_num, usar_simbol)
+    Contraseña = Generar_Contraseña(Longitud, usar_mayus, usar_minus, usar_num, usar_simbol)
     if Contraseña is None:
         print("Error: No se seleccionó ningún caracter. No se puede generar contraseña")
     else:
