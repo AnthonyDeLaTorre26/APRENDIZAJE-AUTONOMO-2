@@ -68,7 +68,7 @@ def Menu_Generacion():
         contrasena = Generar_Contraseña(longitud, usar_mayus=True, usar_minus=True, usar_num=False, usar_simbol=False)
     elif opcion == '3':
         usar_num = Solicitar_Si_o_No("¿Desea incluir números?")
-        usar_simbol = ("¿Desea incluir símbolos?")
+        usar_simbol = Solicitar_Si_o_No("¿Desea incluir símbolos?")
         contrasena = Generar_Contraseña(longitud, usar_mayus=True, usar_minus=True, usar_num=usar_num, usar_simbol=usar_simbol)
     elif opcion == '4':
         print("Se usará combinación de mayúsculas, minúsculas, números y símbolos.")
