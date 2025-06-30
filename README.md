@@ -1,5 +1,4 @@
 ## PROYECTO FINAL
-El Impacto de las Nuevas Tecnologías en la Sociedad: Visualización del Futuro
 
 ## Fecha
 29 de Junio del 2025
