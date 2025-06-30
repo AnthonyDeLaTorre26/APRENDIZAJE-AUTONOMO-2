@@ -45,6 +45,6 @@ Este proyecto refuerza la conciencia sobre la seguridad digital en el contexto d
 
 ---
 
-#Autorìa
+#Autoría
 
 Anthony De La Torre
